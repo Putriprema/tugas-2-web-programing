@@ -1,0 +1,64 @@
+body{
+    background-image: url("a.png");
+    background-size: 100% 100%;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    font-family: tahoma;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: black;
+    border-radius: 5px;
+    font-size: 18pt;
+}
+
+label{
+    font-family: comic sans-serif;
+    font-size: 20pt;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block; 
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ddd;
+}
+
+.menu ul li a:hover{
+    display: block;
+    color: rgb(168, 96, 63);
+    background: rgb(1, 47, 69);
+}
+
+p1{ 
+    font-size: 25pt;
+    font-family: Impact;
+    color: red;
+}
+p{
+    font-size: 18pt;
+    font-family: Segoe UI;
+    color: black;
+    text-shadow: red;
+}
